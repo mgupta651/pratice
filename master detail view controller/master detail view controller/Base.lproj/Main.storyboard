@@ -222,6 +222,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HE8-17-4Xi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7ic-cN-UR0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fwl-dF-4ZC">
@@ -270,6 +271,7 @@
                         <viewControllerLayoutGuide type="bottom" id="tJ4-VM-al6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RUJ-SM-4qk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYz-L3-nmz">

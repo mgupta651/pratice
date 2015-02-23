@@ -34,9 +34,10 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="94" y="275" width="209" height="44"/>
+                                    <rect key="frame" x="112" y="277" width="209" height="44"/>
                                 </variation>
                                 <connections>
+                                    <action selector="Button:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bOW-Uf-yh0"/>
                                     <action selector="setTitleLable:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="esi-Ss-nuV"/>
                                 </connections>
                             </button>
@@ -56,9 +57,6 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="myTitleLabel" destination="dG8-GD-LLc" id="egk-h0-Kgo"/>
-                        <outlet property="myTitleLable" destination="dG8-GD-LLc" id="tab-tl-1KE"/>
-                        <outlet property="mylable" destination="dG8-GD-LLc" id="3cK-Xx-jcV"/>
                         <outlet property="setTitleLable" destination="fB0-di-KLz" id="TxL-ix-x18"/>
                         <outlet property="setmylabel" destination="fB0-di-KLz" id="e1E-vN-4dk"/>
                     </connections>

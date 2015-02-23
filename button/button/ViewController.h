@@ -10,10 +10,8 @@
 
 @interface ViewController :UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *myTitleLable;
-
-- (IBAction)setTitleLable:(id)sender;
-
+@property (weak, nonatomic) IBOutlet UILabel *myTitleLabel;
+- (IBAction)Button:(id)sender;
 
 @end
 

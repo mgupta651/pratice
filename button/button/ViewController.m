@@ -25,8 +25,5 @@
 }
 
 
-- (IBAction)setTitleLable:(id)sender {
-    
-    [_myTitleLable setText:@"Hello"];
-}
+
 @end
